@@ -27,7 +27,6 @@ app.get('/', (req, res) => {
             res.send("Team Lead Software Engineer")
             break;
         case "Puzzle":
-            console.log(req.query)
             res.send(solvePuzzle(req.query.d))
             break;
         case "Phone":
