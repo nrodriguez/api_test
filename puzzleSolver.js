@@ -22,7 +22,7 @@ const puzzleMapping = {
     'A-<--\nB-=--\nC->--\nD-->-\n': ' ABCD\nA=<<<\nB>=<<\nC>>=<\nD>>>=\n',
     'A---<\nB-->-\nC--->\nD---=\n': ' ABCD\nA=<<<\nB>=>>\nC><=>\nD><<=\n',
     'A->--\nB--->\nC---<\nD---=\n': ' ABCD\nA=>>>\nB<=>>\nC<<=<\nD<<>=\n',
-    'A->--\nB-=--\nC>---\nD-<--\n': ' ABCD\nA=><>\nB<=<>\nC>>=>\nD<<<=' 
+    'A->--\nB-=--\nC>---\nD-<--\n': ' ABCD\nA=><>\nB<=<>\nC>>=>\nD<<<=\n' 
 }
 
 module.exports = (puzzle) => {
